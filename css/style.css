@@ -534,6 +534,15 @@ header {
 
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.social-box {
+    margin-left: 120px;
+}
+
 .footer-logo {
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -553,4 +562,18 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.social-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color, #ffffff);
+    margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
 }

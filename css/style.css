@@ -587,8 +587,8 @@ header {
   gap: 16px;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link-fotter:hover,
+.social-link-fotter:focus {
   background-color: #31d0aa;
 }
 

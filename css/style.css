@@ -539,8 +539,17 @@ header {
     align-items: baseline;
 }
 
+.logo-box {
+    margin-right: 120px;
+}
+
 .social-box {
-    margin-left: 120px;
+
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
 }
 
 .footer-logo {
@@ -576,4 +585,13 @@ header {
 .social-list {
   display: flex;
   gap: 16px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-icon {
+  fill: var(--icon-color, #f4f4fd);
 }
